@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>E-Vidya | Instructor Home</title>
+	 <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+	  <a class="navbar-brand" href="index.html">E-Vidya Logo</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-auto">     
+	     
+	    </ul>
+	    
+	  </div>
+	</nav>
+
+	<div class="container" id="how-this-works">
+		<h4>How this works?</h4>
+		<div class="row">
+			<div class="col-md-4">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum mi. Duis erat elit, commodo ac porta venenatis, tempus eu metus. Morbi sollicitudin sagittis dui id commodo. Suspendisse auctor ipsum vulputate augue vestibulum dignissim.</p>
+			</div>
+			<div class="col-md-4">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum mi. Duis erat elit, commodo ac porta venenatis, tempus eu metus. Morbi sollicitudin sagittis dui id commodo. Suspendisse auctor ipsum vulputate augue vestibulum dignissim.</p>
+			</div>
+			<div class="col-md-4">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum mi. Duis erat elit, commodo ac porta venenatis, tempus eu metus. Morbi sollicitudin sagittis dui id commodo. Suspendisse auctor ipsum vulputate augue vestibulum dignissim.</p>
+			</div>
+		</div>
+		<hr>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<!-- Button trigger modal -->
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#newcoursemodal">
+				  Create a new course
+				</button>
+
+				<!-- Modal -->
+				<div class="modal fade" id="newcoursemodal" tabindex="-1" role="dialog">
+				  <div class="modal-dialog modal-dialog-centered" role="document">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <h5 class="modal-title" id="newcoursemodaltitle">New Course Creation Details</h5>
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          <span aria-hidden="true">&times;</span>
+				        </button>
+				      </div>
+				      <div class="modal-body">
+				        <form action="createcourse.html">
+							  <div class="form-group">
+							    <label for="coursename">Course Name</label>
+							    <input type="text" class="form-control" id="coursename" placeholder="Enter course name">
+							  </div>
+							  <div class="form-group">
+							    <label for="coursecategory">Pick a category</label>
+							    <select class="form-control" id="coursecategory">
+							      <option>---</option>
+							      <option>Learning</option>
+							      <option>Reading</option>
+							      <option>Writing</option>
+							      <option>Speaking</option>
+							    </select>
+							  </div>
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				        <button type="submit" class="btn btn-primary">Create Course</button>
+				    </form>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+			</div>
+		</div>
+		
+		
+	</div>
+
+<footer>
+		<center id="footer-text">Copyright &copy; E-Vidya</center>
+	</footer>
+
+
+
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+</body>
+</html>

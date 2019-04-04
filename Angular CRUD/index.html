@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>AngularJS CRUD</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+	<body ng-app="crudApp" ng-controller="crudAppController">
+
+		<div class="container-fluid p-4">
+
+			<div class="row pb-4">
+				<div class="col-md-12">
+					<h2 class="text-center">Angular JS CRUD</h2>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-5">
+					<div class="card">
+						<div class="card-header">
+							Create new record
+						</div>
+
+						<div class="card-body">
+							<div class="input-group mb-3">
+							  <div class="input-group-prepend">
+							    <span class="input-group-text">Name : </span>
+							  </div>
+							  <input ng-model="newPerson.name" type="text" class="form-control" placeholder="Enter your name" >
+							</div>
+
+							<div class="mb-3 border rounded py-2 bg-light px-2 position-relative">
+
+								<div class="custom-file">
+									<input id="imgChooser" fileread="newPerson.profile" type="file" class="custom-file-input" id="customFile" accept="image/*">
+									<label id="fileName" class="custom-file-label" for="customFile">Select profile picture</label>
+								</div>
+
+								<img id="img-preview" class="preview-img" src="img/batman.jpg">
+							</div>
+
+							<div class="input-group mb-3">
+							  <div class="input-group-prepend">
+							    <span class="input-group-text">Email : </span>
+							  </div>
+							  <input ng-model="newPerson.email" type="email" class="form-control" placeholder="Enter your email">
+							</div>
+
+							<div class="input-group mb-3">
+							  <div class="input-group-prepend">
+							    <span class="input-group-text">Phone : </span>
+							  </div>
+							  <input ng-model="newPerson.phone" type="text" class="form-control" placeholder="Enter your phone">
+							</div>
+
+							<input type="hidden" ng-model="newPerson.id" />
+
+						</div>
+
+						<div class="card-footer">
+							<button id="btnCreateUpdate" class="btn btn-primary px-4" ng-click="saveUpdate()">Create</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-7">
+					<div class="card">
+						<div class="card-header">
+							All entries
+						</div>
+
+						<div class="card-body">
+							<table class="table table-bordered table-hover">
+								<thead>
+									<tr>
+										<th>Name</th>
+										<th>Profile Picture</th>
+										<th>Email</th>
+										<th>Phone</th>
+										<th>Actions</th>
+									</tr>
+								</thead>
+
+								<tbody>
+									<tr ng-repeat="person in persons">
+										<td>{{person.name}}</td>
+										<td><img ng-src="{{person.profile.data}}" class="img"></td>
+										<td>{{person.email}}</td>
+										<td>{{person.phone}}</td>
+										<td>
+											<button class="btn btn-link p-0" ng-click="edit($index)">Edit</button> | 
+											<button class="btn btn-link p-0" ng-click="delete($index)">Delete</button>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+		<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/angular.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

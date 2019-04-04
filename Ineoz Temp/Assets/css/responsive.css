@@ -1,0 +1,331 @@
+@media (max-width: 575.98px) {
+    /* Styles */
+
+    /* Global CSS */
+    .section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .custom-container{
+        padding-left: 0em;
+        padding-right: 0rem;
+        max-width: 100%;
+        overflow: hidden;
+    }
+    .custom-container-left{
+        padding-left: 0rem !important;
+    }
+    .custom-container-left-contact{
+        padding-left: 0rem !important;
+    }
+    .custom-container-right{
+        padding-right: 0!important;
+    }
+    
+    /* Header */
+    .logosection img{
+        height: 40px;
+        width: 90px;
+        margin-top: 40px;
+    }
+    .pre-header .row{
+        display: block;
+    }
+
+    /* Nav Bar CSS */
+    .navarea-content {
+        padding: 10px 40px 20px 30px !important;
+        display: block !important;
+    }
+    .navsec-content {
+        display: block;
+        padding: 11.5px 2px;
+        text-align: center;
+    }
+    .navbar{
+        padding:15px;
+    }
+    /* Carousel CSS */
+    .carousel-item div[data-bg] {
+        height: 15rem;
+    }
+    .caption .carousel-content-heading{
+        font-size: 27px;
+    }
+    .carousel-item .caption {
+        width: 375px;
+        color: white;
+        text-align: center;
+        position: absolute;
+        z-index: 10;
+        top: 28.5%;
+        left: auto;
+        text-align: center;
+    }
+    .small-border{
+        display: initial;
+        margin-left: 60px;
+    }
+    .btn{
+        padding: 5px 10px;
+        border: 2px solid;
+    }
+    /* Introduction CSS */
+    .intro-col{
+        text-align: center;
+    }
+    .intro-col p {
+        font-family: 'Poppins' , serif;
+        line-height: 22px;
+        padding: 0px !important;
+    }
+    .intro-col h6 {
+       padding: 12px !important
+    }
+
+    /* Brands CSS */
+    .brands{
+        display: block !important;
+        text-align: center;
+        margin-left: 35px;
+    }
+    .brands img {
+        margin: 10px;
+        height: 53px;
+        width: 120px;
+    }
+    .brands div{
+        margin-right: 30px !important;
+    }
+
+    /* Services CSS */
+    .services {
+        background: #f3f3f3;
+    }
+    .services .card-deck {
+        padding-left: 1.7rem !important;
+    }
+
+    /* Stats CSS */
+    .stats{
+        margin-top: 0px;
+    }
+
+    /* Conatct CSS */
+    .contact {
+        padding-left: 15px !important;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+    .form-group .form-control{
+        width:100%;
+    }
+    .contact-btn{
+        margin-top:10px;
+    }
+    .contact .btn{
+        padding: 15px 25px; 
+    }
+
+    /* Team CSS */
+    .team .card-img-top {
+        margin: auto;
+        height: 100%;
+        width: 100%;
+    }
+    .team .card-title {
+        font-size: 20px;
+    }
+    .team .card-text {
+        font-size: 14px;
+    }
+    .social-2 .fa {
+        width: 2.4em;
+        text-align: center;
+        line-height: 2.4em;
+        background: rgba(0, 0, 0, 0.05);
+        color: #888;
+        border-radius: 50%;
+        margin-right: 6px;
+        font-size: 15px;
+    }
+    /* Benefits CSS */
+    .content-heading-benefits{
+        padding: 0px;
+    }
+    
+    /* Blog CSS */
+    .blog{
+        background: #014fb4;
+    }
+    
+    /* Swiper CSS */
+    .swiper{
+        display: none;
+    }
+    
+    /* Footer CSS */
+    footer{
+        padding-top: 20px !important;
+    }
+    .footer-content{
+        text-align: center;
+        display: block !important;
+    }
+    .footer-content .first{
+        border:none !important;
+        
+    }
+    .footer-content .second{
+        border:none !important;
+        
+    }
+    .footer-content .third{
+        border: none !important;
+        
+    }
+    .footer-content-col1{
+        display: block !important;
+    }
+    .footer-content-col1 .fa{
+        margin-right: 0px !important;
+        margin-bottom: 5px;
+    }
+    .footer-content-col1 .con-details{
+        display: block !important;
+        
+    }
+    .footer-content .small-border{
+        background-color: #888;
+        width: 300px;
+        text-align: center;
+    }
+    .footer-content .small-border {
+        display: initial;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .custom-container{
+        padding-left: 0rem !important;
+        padding-right: 0rem !important;
+        max-width: 100%;
+        overflow: hidden;
+    }
+    .custom-container-left{
+        padding-left: 0rem !important;
+    }
+    .custom-container-left-contact {
+        padding-left: 1rem !important;
+    }
+
+    .custom-container-right{
+        padding-right: 0!important;
+    }
+
+    .pre-header .logosection {
+        flex-basis: 802px;
+    }
+    .logosection img {
+        height: 40px;
+        width: 90px;
+        margin-top: initial;
+    }
+    .navbar{
+        padding:15px;
+    }
+
+    .carousel-item div[data-bg] {
+        height: 15rem;
+    }
+
+    .carousel-item .caption h3,
+    .carousel-item .caption h6,
+    .carousel-item .caption span {
+        display: none;
+    }
+    .carousel-item .caption button{
+        margin-right:
+    }
+    
+
+    .brands div{
+        margin-right: 37px !important;
+    }
+
+
+    .services {
+        background: linear-gradient(to bottom, #f3f3f3 49.8% , #ffffff 49%);
+    }
+    .services .card-deck{
+        margin-left:initial !important;
+    }
+
+    .content-heading-benefits {
+        padding: initial;
+    }
+
+    .blog {
+        background: linear-gradient(to bottom, #014fb4 49.7% , #ffffff 49%);
+    }
+    .footer-content .small-border{
+        display: none;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .custom-container{
+        padding-left: 0em;
+        padding-right: 0rem;
+        max-width: 100%;
+        overflow: hidden;
+    }
+    .pre-header .logosection {
+        flex-basis: 1000px;
+    }
+    .carousel-item .caption {
+        width: 500px;
+        color: white;
+        text-align: center;
+        position: absolute;
+        z-index: 10;
+        top: 28.5%;
+        left: 25%;
+        text-align: center;
+    }   
+    
+    
+    .brands div{
+        margin-right: 100px !important;
+    }
+
+
+    .services {
+        background: linear-gradient(to bottom, #f3f3f3 57.5% , #ffffff 49%);
+    }
+    .services .card-deck{
+        margin-left: initial;
+    }
+
+    .team .card-img-top {
+        margin-left: 2rem;
+    }
+
+    .content-heading-benefits {
+        padding: 40px;
+    }
+
+    .blog {
+        background: linear-gradient(to bottom, #014fb4 54.5% , #ffffff 49%);
+    }
+
+    .footer-content .small-border{
+        display: none;
+    }
+}
+
+/* Final One */

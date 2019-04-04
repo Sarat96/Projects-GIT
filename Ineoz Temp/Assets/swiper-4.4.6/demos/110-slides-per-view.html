@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="../dist/css/swiper.min.css">
+
+  <!-- Demo styles -->
+  <style>
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+      border: 1px solid #000;
+    }
+    .swiper-slide {
+      /* text-align: center; */
+      font-size: 18px;
+      background: #fff;
+      border: 1px solid #000;
+      margin-right:27px !important;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+    .swiper-slide img{
+      height: 66px;
+      width: 68px;
+    }
+    .custom-container{
+      padding-left: 14.1rem;
+      padding-right: 14.1rem;
+    }
+    .swiper-wrapper{
+      padding-top: 15px;
+    }
+    .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+      margin: 0 1px;
+      width: 7px;
+      height: 7px;
+      border-radius: 0%;  
+    }
+
+.swiper-pagination{
+  position: relative;
+  top: 0px;
+  text-align: right;
+}
+  </style>
+</head>
+<body>
+  <!-- Swiper -->
+  <div class="custom-container">
+    <!-- Add Pagination -->
+      <div class="swiper-container"> 
+          <div class="swiper-pagination"></div>
+          <div class="swiper-wrapper ">
+            <div class="swiper-slide">
+                <img src="../../images/card-img-1.jpg" width="100">
+                <div style="display: inline-block; margin-left: 10px">
+                  <small style="display: block; padding-bottom: 10px;">Paragraph</small>
+                  <p style="margin: 0; font-weight: bold; font-size: 14px;">Many important brands have given us their trust</p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="../../images/card-img-1.jpg" width="100">
+                <div style="display: inline-block; margin-left: 10px">
+                  <small style="display: block; padding-bottom: 10px;">Paragraph</small>
+                  <p style="margin: 0; font-weight: bold; font-size: 14px;">Many important brands have given us their trust</p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="../../images/card-img-1.jpg" width="100">
+                <div style="display: inline-block; margin-left: 10px">
+                  <small style="display: block; padding-bottom: 10px;">Paragraph</small>
+                  <p style="margin: 0; font-weight: bold; font-size: 14px;">Many important brands have given us their trust</p>
+                </div>
+            </div>
+             <div class="swiper-slide">
+                <img src="../../images/card-img-1.jpg" width="100">
+                <div style="display: inline-block; margin-left: 10px">
+                  <small style="display: block; padding-bottom: 10px;">Paragraph</small>
+                  <p style="margin: 0; font-weight: bold; font-size: 14px;">Many important brands have given us their trust</p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="../../images/card-img-1.jpg" width="100">
+                <div style="display: inline-block; margin-left: 10px">
+                  <small style="display: block; padding-bottom: 10px;">Paragraph</small>
+                  <p style="margin: 0; font-weight: bold; font-size: 14px;">Many important brands have given us their trust</p>
+                </div>
+            </div>
+          </div>
+      </div>
+  </div>
+
+
+  <!-- Swiper JS -->
+  <script src="../dist/js/swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+  </script>
+</body>
+</html>
